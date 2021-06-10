@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.btn-spacing{
+  margin-left: 10px;
+}
+
+.state-width{
+  width: 6.4vw;
+}
