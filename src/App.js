@@ -54,24 +54,24 @@ class App extends React.Component {
 
   render() {
     return (
-      <div class="d-flex justify-content-center">
+      <div className="d-flex justify-content-center">
 
       
       <div className=" flex-column mt-5 ">
         
 
-          <button type="button" class="btn btn-outline-primary  rounded-0"
+          <button type="button" className="btn btn-outline-primary  rounded-0"
             onClick={this.increment}>+1</button>
 
 
-          <button type="button" class="btn btn-outline-primary  rounded-0 btn-spacing" 
+          <button type="button" className="btn btn-outline-primary  rounded-0 btn-spacing" 
             
             onClick={this.decrement}>-1</button>
 
 
          
       
-        <div class="h4 text-white bg-secondary text-center py-1 mt-2 state-width ">
+        <div className="h4 text-white bg-secondary text-center py-1 mt-2 state-width ">
          {this.state.count}</div>
       </div>
       </div>
